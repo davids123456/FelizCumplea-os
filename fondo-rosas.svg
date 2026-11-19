@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#dedcf2"/>
+      <stop offset=".55" stop-color="#fff0e8"/>
+      <stop offset="1" stop-color="#efd6dc"/>
+    </linearGradient>
+    <radialGradient id="sunlight">
+      <stop stop-color="#fff8d8" stop-opacity=".9"/>
+      <stop offset=".48" stop-color="#ffe4aa" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#ffe4aa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v900H0z"/>
+  <circle cx="605" cy="680" r="390" fill="url(#sunlight)"/>
+  <g fill="#fff9f4" opacity=".34">
+    <path d="M-60 230c65-55 130-35 152 0 35-30 98-18 105 27H-60z"/>
+    <path d="M960 170c52-45 107-26 124 8 34-28 91-14 102 28H960z"/>
+    <path d="M410 150c38-30 78-18 91 8 26-19 63-9 70 23H410z"/>
+  </g>
+  <path d="M0 765q170-55 335 0t330 0 335 0 200-8v143H0z" fill="#c6b8d7" opacity=".28"/>
+  <path d="M0 820q185-48 355 0t345 0 330 0 170-12v92H0z" fill="#a89bbf" opacity=".2"/>
+  <g fill="none" stroke="#d2a75f" stroke-linecap="round" opacity=".48">
+    <path d="M1040 250v52m-18-34h36" stroke-width="7"/>
+  </g>
+  <g opacity=".58" stroke="#9bad8c" stroke-linecap="round">
+    <path d="M15 900q42-88 100-151m-70 111q-25-10-25-32 28-2 34 22m26-40q-4-26 20-34 14 24-7 39m-6 28q24-18 43-2-12 23-38 17" fill="#a8bd9b" stroke-width="3"/>
+    <path d="M1185 900q-42-88-100-151m70 111q25-10 25-32-28-2-34 22m-26-40q4-26-20-34-14 24 7 39m6 28q-24-18-43-2 12 23 38 17" fill="#a8bd9b" stroke-width="3"/>
+  </g>
+  <g opacity=".65">
+    <g transform="translate(78 800)">
+      <circle cy="-12" r="15" fill="#f3bdca"/>
+      <circle cx="14" cy="-1" r="15" fill="#f8d7d9"/>
+      <circle cx="8" cy="15" r="15" fill="#eaa8ba"/>
+      <circle cx="-10" cy="12" r="15" fill="#f7d0d7"/>
+      <circle cx="-15" cy="-3" r="15" fill="#eeb2c1"/>
+      <circle r="7" fill="#e4b05e"/>
+    </g>
+    <g transform="translate(1122 815) scale(1.2)">
+      <circle cy="-12" r="15" fill="#f3bdca"/>
+      <circle cx="14" cy="-1" r="15" fill="#f8d7d9"/>
+      <circle cx="8" cy="15" r="15" fill="#eaa8ba"/>
+      <circle cx="-10" cy="12" r="15" fill="#f7d0d7"/>
+      <circle cx="-15" cy="-3" r="15" fill="#eeb2c1"/>
+      <circle r="7" fill="#e4b05e"/>
+    </g>
+  </g>
+</svg>
